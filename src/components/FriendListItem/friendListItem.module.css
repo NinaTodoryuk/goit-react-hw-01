@@ -1,0 +1,43 @@
+.container {
+    background-color: #fff;
+    width: 118px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+       padding: 0;
+}
+
+.avatar {
+    background-color: #fff;
+    width: 70%;
+border-radius: 0%;
+}
+
+.name {
+        font-weight: 500;
+font-size: 32px;
+margin-top: 20px;
+margin-bottom: 8nppx;
+}
+
+.isOnline{
+    color: green;
+       font-weight: 500;
+font-size: 20px;
+}
+
+.offline{
+    color: red;
+       font-weight: 500;
+font-size: 20px;
+}
+
+.stats {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

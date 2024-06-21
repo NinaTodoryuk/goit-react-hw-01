@@ -1,0 +1,42 @@
+
+
+.container {
+    width: 600px;
+       margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center;
+border-collapse: collapse;
+}
+
+
+.title {
+  background-color: #2b2626;
+  color: #ffffff;
+}
+
+.header {
+  padding: 8px 8px;
+  border: 1px solid #000000;
+}
+
+  tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &:nth-child(2n) {
+      background-color: #d3d3d3;
+    }
+  }
+  td,
+  th {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+  }
+  td:first-child {
+    text-transform: capitalize;
+  }
